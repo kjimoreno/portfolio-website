@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0a0a0a;
+  --secondary: #00ff9d;
+  --tertiary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+  color: var(--text-primary);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-text-primary;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-4xl sm:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply bg-tertiary p-6 rounded-xl border border-secondary/10 hover:border-secondary/20 transition-all duration-300;
+  }
+
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-secondary text-primary hover:bg-accent-dark;
+  }
+
+  .btn-outline {
+    @apply border border-secondary text-secondary hover:bg-secondary/10;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 rounded-lg bg-tertiary border border-secondary/10 focus:border-secondary focus:outline-none transition-all duration-300;
+  }
+} 

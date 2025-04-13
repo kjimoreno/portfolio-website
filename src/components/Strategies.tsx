@@ -1,5 +1,3 @@
-import React from 'react';
-
 const strategies = [
   {
     title: 'Options Conversion Arbitrage',
@@ -14,9 +12,9 @@ const strategies = [
     title: 'Intraday Momentum Scalping',
     description: 'Used order flow analysis paired with volume imbalance to trade momentum.',
     metrics: {
-      sharpe: 2.0,
+      sharpe: 1.2,
       winRate: '55%',
-      profitFactor: 1.5,
+      profitFactor: 1.8,
     },
   },
   {
@@ -24,7 +22,7 @@ const strategies = [
     description: 'Combined moving averages, pivot points, and true range for finding reversal trades.',
     metrics: {
       sharpe: 0.7,
-      winRate: '61%',
+      winRate: '50%',
       profitFactor: 2.7,
     },
   },

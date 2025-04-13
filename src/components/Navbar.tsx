@@ -21,7 +21,8 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Strategies', href: '#strategies' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Resume', href: 'https://jmp.sh/faUtPa8Q', target: '_blank', rel: 'noopener noreferrer' },
+    { name: 'Contact', href: '#contact' }
   ]
 
   return (

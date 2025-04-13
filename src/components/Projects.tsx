@@ -2,31 +2,31 @@ const projects = [
   {
     title: 'End To End Equities Trading System',
     description: 'Built an end-to-end trading system featuring custom backtester with execution simulation.',
-    technologies: ['Python', 'Risk Management', 'Tailwind CSS'],
+    technologies: ['System Design', 'Strategy Implementation', 'Backtesting Engine', 'Trade Simulation'],
     link: 'https://kjimoreno-end-to-end-trading-system-dashboardapp-2obsw8.streamlit.app/',
   },
   {
     title: 'Portfolio Optimization Dashboard',
     description: 'Created optimization platform incorporating modern portfolio theory and risk models.',
-    technologies: ['Modern Portfolio Theory', 'REST API', 'MongoDB'],
+    technologies: ['Modern Portfolio Theory', 'Data Wrangling', 'Risk & Return Metrics', 'REST APIs'],
     link: 'https://kjimoreno-portfolio-optimization-dashboard-app-hscyb9.streamlit.app/',
   },
   {
     title: 'Options Pricing Model',
     description: 'Developed user-friendly interface for pricing options models and backtesting strategies.',
-    technologies: ['Python', 'Django', 'PostgreSQL'],
+    technologies: ['Derivatives', 'Pricing Models', 'Numerical Methods', 'Greeks Calculation'],
     link: 'https://kjimoreno-options-pricing-model-app-xfhz6w.streamlit.app/',
   },
   {
     title: 'Volatility Forecasting Model',
     description: 'Engineered interactive dashboard for real-time model visualization to evaluate volatility.',
-    technologies: ['GARCH', 'Django', 'PostgreSQL'],
+    technologies: ['Volatility Forecast', 'GARCH', 'EWMA'],
     link: 'https://github.com/kjimoreno/Volatility-Forecast',
   },
   {
     title: 'CFA Institute Research Report',
-    description: 'Worked with 3 other teammates to conduct quantitative methods for equity analysis.',
-    technologies: ['Python', 'Django', 'PostgreSQL'],
+    description: 'Conducted in-depth quantitative methods for an analysyis on stock Dolby Laboratories.',
+    technologies: ['Sensitivity Analysis', 'Financial Modeling', 'Risk Management', 'Data Analysis'],
     link: 'https://jmp.sh/Sh1Weak7',
   },
 ]

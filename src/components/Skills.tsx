@@ -2,19 +2,19 @@ const Skills = () => {
   const skills = [
     {
       category: 'Programming Languages',
-      items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'C++']
+      items: ['Python', 'C++', 'Javascript', 'SQL', 'C#', 'HTML/CSS']
     },
     {
-      category: 'Frameworks & Libraries',
-      items: ['React', 'Node.js', 'Django', 'Flask', 'FastAPI']
+      category: 'Libraries & Frameworks',
+      items: ['Pandas', 'NumPy', 'Git', 'React', 'Streamlit', 'Dash']
     },
     {
-      category: 'Tools & Technologies',
-      items: ['Git', 'Docker', 'AWS', 'Linux', 'MongoDB']
+      category: 'Software Development',
+      items: ['Full-Stack Development', 'REST APIs', 'GIT', 'Debugging', 'Linux', 'Databases',]
     },
     {
-      category: 'Quantitative Skills',
-      items: ['Financial Modeling', 'Risk Analysis', 'Statistical Analysis', 'Machine Learning']
+      category: 'Quantitative Finance',
+      items: ['Pricing & Risk Models', 'Derivatives', 'Financial Products', 'Investment Valuation', 'Market Microstructure', 'What-If Scenarios']
     }
   ]
 

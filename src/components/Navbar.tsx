@@ -20,6 +20,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Strategies', href: '#strategies' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -35,7 +36,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
             href="#"
             className="text-2xl font-bold text-secondary"
           >
-            YourName
+            KM
           </a>
 
           {/* Desktop Navigation */}

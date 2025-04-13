@@ -1,12 +1,4 @@
-import { useRef } from 'react'
-
 const Hero = () => {
-  const scrollRef = useRef<HTMLDivElement>(null)
-
-  const scrollToContent = () => {
-    scrollRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }
-
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
@@ -25,11 +17,11 @@ const Hero = () => {
             Keishan Moreno
           </h1>
           <h2 className="text-3xl sm:text-4xl text-text-secondary mb-8">
-            Full Stack Developer
+            Quant Developer | Software Engineer
           </h2>
           <p className="text-lg sm:text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-            Passionate about creating elegant solutions to complex problems. 
-            Specializing in building modern web applications with cutting-edge technologies.
+            Passionate about quantitative finance, software development, and data science. 
+            Specializing in building cutting-edge fintech solutions and full-stack applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#projects" className="btn btn-primary">
@@ -41,7 +33,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div ref={scrollRef} className="absolute bottom-0 w-full h-20" />
     </section>
   )
 }

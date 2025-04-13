@@ -1,21 +1,33 @@
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A brief description of your first project.',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-    link: 'https://github.com/yourusername/project1',
+    title: 'End To End Equities Trading System',
+    description: 'Built an end-to-end trading system featuring custom backtester with execution simulation.',
+    technologies: ['Python', 'Risk Management', 'Tailwind CSS'],
+    link: 'https://kjimoreno-end-to-end-trading-system-dashboardapp-2obsw8.streamlit.app/',
   },
   {
-    title: 'Project 2',
-    description: 'A brief description of your second project.',
-    technologies: ['Node.js', 'Express', 'MongoDB'],
-    link: 'https://github.com/yourusername/project2',
+    title: 'Portfolio Optimization Dashboard',
+    description: 'Created optimization platform incorporating modern portfolio theory and risk models.',
+    technologies: ['Modern Portfolio Theory', 'REST API', 'MongoDB'],
+    link: 'https://kjimoreno-portfolio-optimization-dashboard-app-hscyb9.streamlit.app/',
   },
   {
-    title: 'Project 3',
-    description: 'A brief description of your third project.',
+    title: 'Options Pricing Model',
+    description: 'Developed user-friendly interface for pricing options models and backtesting strategies.',
     technologies: ['Python', 'Django', 'PostgreSQL'],
-    link: 'https://github.com/yourusername/project3',
+    link: 'https://kjimoreno-options-pricing-model-app-xfhz6w.streamlit.app/',
+  },
+  {
+    title: 'Volatility Forecasting Model',
+    description: 'Engineered interactive dashboard for real-time model visualization to evaluate volatility.',
+    technologies: ['GARCH', 'Django', 'PostgreSQL'],
+    link: 'https://github.com/kjimoreno/Volatility-Forecast',
+  },
+  {
+    title: 'CFA Institute Research Report',
+    description: 'Worked with 3 other teammates to conduct quantitative methods for equity analysis.',
+    technologies: ['Python', 'Django', 'PostgreSQL'],
+    link: 'https://jmp.sh/Sh1Weak7',
   },
 ]
 
